@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(233,215,207);
+    text-align: center;
+    columns: rgb(83,75,75);
+    margin: 50px;
+}
+img{
+    width:200px;
+    height: 200px;
+    
+}
+h1{
+    font-family: 'Oswald',sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color:brown;
+  
+}
+p{
+    font-family: sans-serif;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: underline;
+    color:rgb(167, 1, 78)
+}
+main{
+    background-color: chocolate;
+    color:azure;
+    width: 800px;
+    margin: auto;
+}
+h2{
+    font-family: 'Oswald',sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 600px;
+    
+
+}
+ol{
+    list-style: none;
+    padding: 0;
+    
+}
+li{
+    list-style: none;
+    font-family: 'Oswald',sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    
+}
+footer{
+    font-size: 20px;
+}
+span{
+    font-size: 50px;
+    color:darkblue;
+}
