@@ -8,7 +8,13 @@ body{
 }
 #logo-page a {
     padding: 10px;
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color:  darkgoldenrod;
     font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+#logo-page a img {
+    height: 50px;
 }
