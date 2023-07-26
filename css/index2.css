@@ -31,13 +31,9 @@ h1 {
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   color:solid black;
-  margin: 100px 40px 40px;
-  
- 
-  
-  
- 
+  margin: 100px 40px 40px; 
 }
+
 h2{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-family: 'Oswald', sans-serif;
@@ -66,7 +62,6 @@ a {
 #hash1{
   background-color: none;
   font-family: 'Roboto Mono', monospace;
-  
   text-align: none;
   color:none;
   text-decoration: none;

@@ -1,0 +1,14 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(233,215,207);
+    color: rgb(83,75,75);
+    margin: 0px;
+}
+#logo-page a {
+    padding: 10px;
+    font-family:  'Poppins', sans-serif;
+    color:  darkgoldenrod;
+    font-size: 50px;
+}
