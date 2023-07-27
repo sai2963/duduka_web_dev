@@ -15,14 +15,17 @@ body{
     text-transform: uppercase;
     text-shadow: 1px 1px 2px black;
 }
-#logo-page a img {
+#logo-page img {
     height: 50px;
 }
-#right-top {
+nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
     font-size: 20px;
     font-family: sans-serif;
     
+}
+nav a{
+    text-decoration: none;
 }
