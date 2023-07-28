@@ -120,4 +120,50 @@ nav a:hover{
 }
 #hero-content a:hover{
     background-color:yellow;
+    border-radius: 24px;
+   
+}
+#highlight-page{
+    text-align: center;
+    font-size: 30px;
+    color: solid black;
+    font-weight: 900;
+    text-shadow: 2px 2px 6px brown;
+}
+#highlight-page img{
+    height: 200px;
+    width: 350px;
+    
+}
+#high-info{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: chocolate;
+    margin: auto 20px 50px 20px;
+    
+    
+}
+#b1 {
+    position: relative;
+    left: 150px;
+    text-shadow: 2px 2px 6px;
+}
+#b2{
+    position: relative;
+    left: 250px;
+    text-shadow: 2px 2px 6px;
+}
+#b3{
+    position: relative;
+    left: 350px;
+    text-shadow: 2px 2px 6px;
+}
+#high-info a{
+    text-decoration: none;
+    color: rgb(80, 8, 27);
+    text-shadow: none;
+    margin: 10px;
+}
+footer{
+    background-color: grey;
 }
