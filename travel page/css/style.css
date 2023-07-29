@@ -1,173 +1,144 @@
-
-body{
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    background-color: rgb(233,215,207);
-    color: rgb(83,75,75);
-    margin: 0px;
-    
+body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(233, 215, 207);
+  color: rgb(83, 75, 75);
+  margin: 0px;
 }
 header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 60px;
-    position: absolute;
-    width: 100%;
-    box-sizing: border-box;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
-header
-#logo-page a {
-    padding: 10px;
-    font-family: 'Oswald', sans-serif;
-    color:  darkgoldenrod;
-    font-size: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px black;
-     
+header #logo-page a {
+  padding: 10px;
+  font-family: "Oswald", sans-serif;
+  color: darkgoldenrod;
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
 }
 #logo-page img {
-    height: 50px;
-    
-    
+  height: 50px;
 }
 nav ul {
-    list-style: none;
-    padding: 12px;
-    
+  list-style: none;
+  padding: 12px;
+
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 10px;
+  color: gray;
+  padding: 12px;
+}
+nav a:hover {
+  background-color: gold;
+  color: black;
+}
+#hero {
+  height: 600px;
+  background-image: url(/images/India_tourism.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#hero-content {
+  background-color: rgba(51, 47, 47, 0.4);
+  padding: 70px 0;
+  text-align: center;
+  width: 600px;
+  height: 150px;
+
+  margin: 5px auto;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 24px;
+  border: 2px black;
+
+  position: relative;
+  top: 200px;
+}
+#hero-content h1 {
+  font-weight: 900;
+  color: cornsilk;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 2px 2px 6px;
+}
+#hero-content p {
+  font-family: sans-serif;
+  color: cornsilk;
+  font-size: 18px;
+  font-weight: 5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+#hero-content a {
+  text-decoration: none;
+  background-color: gold;
+  color: black;
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+}
+#hero-content a:hover {
+  background-color: yellow;
+  border-radius: 24px;
+}
+#highlight-page {
+  text-align: center;
+  color: chocolate;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px gold;
+  font-weight: 300p;
+}
+
+#highlight-page img {
+}
+#high-info {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+#high-info img {
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+  margin-top: 0;
+  object-fit: fill;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px yellow;
+}
+#high-info p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
-    font-family: sans-serif;
-    display: flex;
-   
-    color: black;
-    
-}
-
-nav a{
-    text-decoration: none;
-    margin: 10px;
-    color: gray;
-    padding: 12px;
-}
-nav a:hover{
-    background-color: gold;
-    color: black;
-}
-#hero{
-    height: 600px;
-    background-image: url(/images/India_tourism.jpg);
-    background-position: center;
-    background-size: cover;
-    
-    
-
-   
-   
-    
-
-}
-#hero-content{
-    background-color: rgba(51, 47, 47, 0.4);
-    padding: 70px 0;    
-    text-align: center;
-    width: 600px;
-    height: 150px;
-   
-    margin: 5px auto;
-    box-shadow: 2px 2px 2px black;
-    border-radius: 24px;
-    border: 2px black;
-    
-   position: relative;
-    top: 200px;
-    
-}
-#hero-content h1{
-    font-weight: 900;
-    color:cornsilk;
-    font-size: 50px;
-    text-transform: uppercase;
-    margin: 0;
-    text-shadow: 2px 2px 6px;
-    
-
-
-
-}
-#hero-content p{
-    font-family: sans-serif;
-    color:cornsilk;
-    font-size: 18px;
-    font-weight: 5px;
-    text-transform: uppercase;
-    margin: 0;
-}
-#hero-content a{
-    text-decoration: none;
-    background-color:gold;
-    color: black;
-    padding: 20px;
-    border-radius: 50px;
-    margin-top: 50px;
-    font-size: 20px;
-    position: relative;
-    top: 40px;
-    
-}
-#hero-content a:hover{
-    background-color:yellow;
-    border-radius: 24px;
-   
-}
-#highlight-page{
-    text-align: center;
-    font-size: 30px;
-    color: solid black;
-    font-weight: 900;
-    text-shadow: 2px 2px 6px brown;
-}
-#highlight-page img{
-    height: 200px;
-    width: 350px;
-    margin: 20px;
-    border-radius: 20px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 6px;
-    object-fit: fill;
-}
-#high-info{
-    font-family: sans-serif;
-    font-size: 25px;
-    color: chocolate;
-    margin: auto 20px 50px 20px;
-    
-    
-}
-#b1 {
-    position: relative;
-    left: 100px;
-    text-shadow: 2px 2px 6px;
-}
-#b2{
-    position: relative;
-    left: 250px;
-    text-shadow: 2px 2px 6px;
-}
-#b3{
-    position: relative;
-    left: 400px;
-    text-shadow: 2px 2px 6px;
 }
 #high-info a{
     text-decoration: none;
-    color: rgb(80, 8, 27);
-    text-shadow: none;
-    margin: 10px;
+    color: black;
 }
-footer{
-    background-color: grey;
+
+footer {
+  background-color: grey;
 }
