@@ -134,7 +134,10 @@ nav a:hover{
     height: 200px;
     width: 350px;
     margin: 20px;
-    
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 6px;
+    object-fit: fill;
 }
 #high-info{
     font-family: sans-serif;
