@@ -1,0 +1,84 @@
+body {
+  background-color: gray;
+  background: linear-gradient(45deg, rgb(155, 153, 153), rgb(51, 49, 49));
+ 
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+header a {
+  padding: 10px;
+  font-family: "Oswald", sans-serif;
+  color: darkgoldenrod;
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+  margin: 20px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+}
+header ul a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+}
+header ul a:hover{
+    color: black;
+    background: linear-gradient(45deg,gold,yellow);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main{
+    margin: 150px;
+}
+#info1{
+    display: flex;
+    background-color:  white;
+    width: 800px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid gold;
+
+}
+#info1 img{
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+    box-shadow: 2px 2px 8px lightskyblue;
+    border-radius: 20px;
+}
+#info1 b{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    left: 8px;
+    bottom: 10px;
+
+    font-size: 25px;
+    text-transform: uppercase;
+    color: orange;
+}
+#info1 p{
+    margin: 0;
+    
+   
+    font-family: sans-serif;
+}
+#info1 strong{
+   position: relative;
+   left: 270px;
+   top: 30px;
+   font-weight: 500;
+}
+#info1 ul{
+    list-style: none;
+}
