@@ -79,6 +79,21 @@ main{
    top: 30px;
    font-weight: 500;
 }
+#info1 a{
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+  font-size: 20px;
+  
+}
+#info1 strong:hover{
+  background: linear-gradient(180deg,rgb(0, 183, 255),rgb(18, 116, 228));
+  border-radius: 20px;
+  padding: 10px;
+  color:black;
+  text-decoration: solid;
+}
 #info1 ul{
     list-style: none;
+   
+    
 }
