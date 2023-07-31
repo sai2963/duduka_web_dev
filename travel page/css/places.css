@@ -155,3 +155,20 @@ ul {
 #info2 ul {
   list-style: none;
 }
+footer{
+  background-color: aliceblue;
+  text-align: center;
+}
+footer img{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  object-fit: scale-down;
+  border: 2px solid black;
+}
+footer img:hover{
+  box-shadow: 2px 2px 8px;
+}
+footer p{
+  color:gray
+}
