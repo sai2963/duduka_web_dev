@@ -1,0 +1,30 @@
+body {
+  margin: 50px;
+  background-color: aqua;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+main {
+  padding: 20px;
+  position: relative;
+  top: 150px;
+  left: 350px;
+  border: 1px solid gray;
+  width: 600px;
+  text-align: center;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 13px;
+  text-shadow: 2px 2px 8px White;
+  box-shadow: 2px 2px 8px grey;
+}
